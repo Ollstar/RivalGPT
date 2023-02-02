@@ -76,7 +76,7 @@ export default function Home() {
         <link rel="icon" href="/wbc.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       </Head>
-      <AppBar position="sticky" elevation={0} style={{ backgroundColor: "rgb(240,240,240)", width: "100%", top: 0}}>
+      <AppBar position="sticky" elevation={0} style={{ backgroundColor: "rgb(240,240,240)", width: "100%", top: 0, alignItems: "center"}}>
             <Toolbar>
               <img src="/wbc.png" style={{ width: '100px', margin: "5px"}} />
             </Toolbar>
