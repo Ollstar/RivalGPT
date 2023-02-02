@@ -1,0 +1,41 @@
+
+.animalLeft {
+  text-align: left;
+  background-color: rgb(117, 108, 108);
+  border-radius: 10px;
+  padding: 10px;
+  float: left;
+  width: 60%;
+  color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.animalRight {
+  text-align: right;
+  background-color: rgb(176,	58,	60	);
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
+  width: 60%;
+  color: white;
+  font-family: "lato", sans-serif;
+  
+
+}
+
+.subtext {
+  font-size: 8px;
+  padding: 5px;
+  color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.messageContainer {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: flex-start/flex-end;
+
+}

@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.icon {
+  margin-right: 10px;
+  width: 50px;
+  
+  color : rgb(176,	58,	60	);
+
+}
+
+.scrollableContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+.messageContainer {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: flex-start/flex-end;
+
+}
+
+/* Make a inputContainer a input and submit css file that puts the input field and button the entire width of the container */
+
+
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "lato", sans-serif;
+  }
+  .input, .submit {
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    font-family: "lato", sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   }
+  .input {
+    width: 100%;
+  }
+  
+  .submit {
+    width: 30%;
+    background-color: rgb(176,	58,	60	);
+    color: white;
+  padding: 15px;
+  margin-right: 10px;
+  font-family: "lato", sans-serif;
+
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "lato", sans-serif;
+  }
+
+.animalLeft {
+  text-align: left;
+  background-color: rgb(117, 108, 108);
+  border-radius: 10px;
+  padding: 10px;
+  float: left;
+  width: 60%;
+  color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.animalRight {
+  text-align: right;
+  
+  background-color: rgb(176,	58,	60	);
+  border-radius: 10px;
+  padding: 10px;
+  float: right;
+  width: 60%;
+  color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start/flex-end;
+}
+
+.subtext {
+  font-size: 8px;
+  padding: 5px;
+  color: white;
+  font-family: "lato", sans-serif;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "lato", sans-serif;
+  color: black;
+
+}
