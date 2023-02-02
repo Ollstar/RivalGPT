@@ -8,6 +8,7 @@
   width: 60%;
   color: white;
   font-family: "lato", sans-serif;
+  font-size: 16px;
 
 }
 
@@ -20,12 +21,13 @@
   width: 60%;
   color: white;
   font-family: "lato", sans-serif;
-  
+  font-size: 16px;
+
 
 }
 
 .subtext {
-  font-size: 8px;
+  font-size: 10px;
   padding: 5px;
   color: white;
   font-family: "lato", sans-serif;

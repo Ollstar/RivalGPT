@@ -26,7 +26,7 @@
 
 .icon {
   margin-right: 10px;
-  
+
 }
 
 .scrollableContainer {
@@ -36,7 +36,7 @@
   padding: 10px;
   background-color: white;
   border-radius: 10px;
-  
+
 }
 
 .messageContainer {
@@ -47,7 +47,6 @@
 
 }
 
-/* Make a inputContainer a input and submit css file that puts the input field and button the entire width of the container */
 
 
 
@@ -58,56 +57,63 @@
   justify-content: space-between;
   align-items: center;
   font-family: "lato", sans-serif;
-  }
-  .input, .submit {
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 10px;
-    border: 1px solid gray;
-    font-family: "lato", sans-serif;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-   }
-  .input {
-    width: 100%;
-  }
-  
-  .submit {
-    width: 30%;
-    background-color: #397EF7;
-    color: white;
+}
+
+.input,
+.submit {
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 1px solid gray;
+  font-family: "lato", sans-serif;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+}
+
+.submit {
+  font-weight: bold;
+  width: 30%;
+  background-color: #397EF7;
+  color: white;
   padding: 15px;
   margin-right: 10px;
   font-family: "lato", sans-serif;
 
-  }
+}
 
-  .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-family: "lato", sans-serif;
-  }
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "lato", sans-serif;
+}
 
 .animalLeft {
   text-align: left;
-  background-color:#E9E9EB;
+  background-color: #E9E9EB;
   border-radius: 10px;
   padding: 10px;
   float: left;
   width: 60%;
   color: black;
   font-family: "lato", sans-serif;
+  font-size: 16px;
 
 }
 
 .animalRight {
   text-align: right;
-  
+  font-size: 16px;
+
   background-color: #397EF7;
   border-radius: 10px;
   padding: 10px;
@@ -125,14 +131,15 @@
 }
 
 .subtext {
-  font-size: 8px;
+  font-size: 10px;
   padding: 5px;
   color: white;
   font-family: "lato", sans-serif;
 
 }
+
 .subtextLeft {
-  font-size: 8px;
+  font-size: 10px;
   padding: 5px;
   color: black;
   font-family: "lato", sans-serif;

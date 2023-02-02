@@ -18,7 +18,6 @@ import {
   Container,
   rgbToHex
 } from "@mui/material";
-import { width } from "@mui/system";
 
 
 
@@ -70,7 +69,7 @@ export default function Home() {
 
 
   return (
-    <div className={styles.container} style={{ height: "100vh" }}>
+    <div className={styles.container} style={{ height: "100vh", overflow: "-moz-hidden-unscrollable" }}>
       <Head>
         <title>Speak to BlackCombAI and leave a Review</title>
         <link rel="icon" href="/wbc.png" />
@@ -81,7 +80,7 @@ export default function Home() {
               <img src="/wbc.png" style={{ width: '100px', margin: "5px"}} />
             </Toolbar>
           </AppBar>
-      <div className={styles.scrollableContainer} style={{ width: "100%", height: "100%" }} ref={scrollableContainerRef}>
+      <div position="sticky" className={styles.scrollableContainer} style={{ width: "100%", height: "100%" }} ref={scrollableContainerRef}>
       <div className={styles.messageContainer}>
     <Message
         author="BlackCombAI"
@@ -119,14 +118,14 @@ export default function Home() {
         <form className={styles.form} onSubmit={onSubmit}>
           <input type="text"
             className={styles.input}
-            placeholder="Enter input message"
+            placeholder="Enter message..."
             value={animalInput}
             onChange={e => setAnimalInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' ? onSubmit(e) : null}
           />
                   </form>
           <button type="submit" className={styles.submit} disabled={isLoading} onClick={(e) => onSubmit(e)}>
-            {isLoading ? "Generating..." : "Submit"}
+            {isLoading ? "Generating..." : "SUBMIT"}
           </button>
 
 
