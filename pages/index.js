@@ -103,7 +103,7 @@ export default function Home() {
             <div>
               <div className={hybrid.author === "User" ? styles.animalLeft : styles.animalRight}>
                 {hybrid.text}
-                <div className={styles.subtext}>
+                <div className={hybrid.author === "User" ? styles.subtextLeft : styles.subtext}>
                   {hybrid.timestamp} - {hybrid.author}
                 </div>
               </div>
