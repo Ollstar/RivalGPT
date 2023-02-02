@@ -78,7 +78,7 @@ export default function Home() {
       </Head>
       <AppBar position="sticky" elevation={0} style={{ backgroundColor: "rgb(240,240,240)", width: "100%", top: 0}}>
             <Toolbar>
-              <img src="/wbc.png" style={{ height: '50px', margin: "5px"}} />
+              <img src="/wbc.png" style={{ width: '100px', margin: "5px"}} />
             </Toolbar>
           </AppBar>
       <div className={styles.scrollableContainer} style={{ width: "100%", height: "100%" }} ref={scrollableContainerRef}>
