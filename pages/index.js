@@ -65,12 +65,12 @@ export default function Home() {
     <div className={styles.container} style={{ height: "100vh", overflow: "-moz-hidden-unscrollable" }}>
       <Head>
         <title>Speak to BlackCombAI and leave a Review</title>
-        <link rel="icon" href="/wbc.png" />
+        <link rel="icon" href="/starb.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       </Head>
       <AppBar position="sticky" elevation={0} style={{ backgroundColor: "rgb(240,240,240)", width: "100%", top: 0, alignItems: "center"}}>
             <Toolbar>
-              <img src="/wbc.png" style={{ width: '100px', margin: "5px"}} />
+              <img src="/starb.png" style={{ width: '100px', margin: "5px"}} />
             </Toolbar>
           </AppBar>
       <div position="sticky" className={styles.scrollableContainer} style={{ width: "100%", height: "100%" }} ref={scrollableContainerRef}>
