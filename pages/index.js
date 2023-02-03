@@ -125,7 +125,6 @@ export default function Home() {
 
       </div>
       <footer className={styles.footer}>
-        <p>Powered by <a href="https://www.rivaltech.com/">Rival</a></p>
       </footer>
 </AppBar>
 
