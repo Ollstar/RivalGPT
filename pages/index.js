@@ -9,14 +9,7 @@ import {
   Button,
   AppBar,
   Toolbar,
-  Paper,
-  List,
-  ListItem,
-  ListItemText,
-  Typography,
-  Link,
-  Container,
-  rgbToHex
+  NoSsr
 } from "@mui/material";
 
 
@@ -85,14 +78,14 @@ export default function Home() {
     <Message
         author="BlackCombAI"
         text="Hey... 👋"
-        timestamp={timestamp}>
+        timestamp={<NoSsr>{timestamp}</NoSsr> }>
       </Message>
     </div>
     <div className={styles.messageContainer}>
       <Message
         author="BlackCombAI"
         text="I noticed you had a recent experience at Blackcomb Mountain 🤔"
-        timestamp={timestamp}>
+        timestamp={<NoSsr>{timestamp}</NoSsr> }>
       </Message>
     </div>
 
