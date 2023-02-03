@@ -31,6 +31,7 @@ export default function Home() {
 
   async function onSubmit(event, animal = animalInput) {
     event.preventDefault();
+    setAnimalInput("");
 
     let currentTimestamp = new Date().toLocaleString();
     setHybrids([...hybrids, { text: animal, author: "User", timestamp: currentTimestamp }]);
@@ -52,7 +53,6 @@ export default function Home() {
       let currentTimestamp2 = new Date().toLocaleString();
 
       setHybrids([...hybrids, { text: animal, author: "User", timestamp: currentTimestamp }, { text: data.result, author: "BlackCombAI", timestamp: currentTimestamp2 }]);
-      setAnimalInput("");
       setIsLoading(false);
     } catch (error) {
       console.error(error);
@@ -113,6 +113,7 @@ export default function Home() {
             className={styles.input}
             placeholder="Enter message..."
             value={animalInput}
+            disabled={isLoading}
             onChange={e => setAnimalInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' ? onSubmit(e) : null}
           />
